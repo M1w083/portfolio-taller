@@ -1,12 +1,13 @@
 # Sobre este proyecto
 
-Es el portfolio personal de **[Nombre]**, estudiante de 1º GM Informática en **[centro]**.
+Es el portfolio personal de **[Miguel Sastre]**, estudiante de 2º GS DAM en **[Los Boscos]**.
 
 # Sobre mí
 
-- Me gusta **[videojuegos / música / deporte / lo que sea]**.
-- Mis lenguajes favoritos hasta ahora: HTML, CSS, **[Python / JS / ...]**.
+- Me gusta el **[Counter Strike / Schranz / Taekwondo ]**.
+- Mis lenguajes favoritos hasta ahora: HTML, CSS, **[Python / JS / TS / CS / Java]**.
 - Quiero dedicarme a **[desarrollo web / videojuegos / ciberseguridad / ...]**.
+- Mi Linkedin es Miguel Sastre de Logroño, mi github es M1w083 y mi correo es miguelsastre02@gmail.com
 
 # Stack y convenciones
 

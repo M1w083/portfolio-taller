@@ -3,16 +3,16 @@
   <head>
     <meta charset="UTF-8" />
     <meta name="viewport" content="width=device-width, initial-scale=1" />
-    <title>Mi Portfolio</title>
+    <title>Miguel Sastre - Portfolio</title>
     <link rel="preconnect" href="https://fonts.googleapis.com" />
     <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin />
-    <link href="https://fonts.googleapis.com/css2?family=Inter:wght@400;500;600&family=Space+Grotesk:wght@500;700&display=swap" rel="stylesheet" />
+    <link href="https://fonts.googleapis.com/css2?family=Montserrat:wght@400;500;600;700;800&display=swap" rel="stylesheet" />
     <link rel="stylesheet" href="style.css" />
   </head>
   <body>
     <header class="header">
       <nav class="nav">
-        <a href="#inicio" class="nav-logo">Mi Portfolio</a>
+        <a href="#inicio" class="nav-logo">Miguel Sastre</a>
         <ul class="nav-links">
           <li><a href="#sobre-mi">Sobre mí</a></li>
           <li><a href="#proyectos">Proyectos</a></li>
@@ -25,20 +25,32 @@
     <main>
       <section id="inicio" class="hero">
         <div class="hero-content">
-          <p class="hero-greeting">Hola, soy</p>
-          <h1 class="hero-name">[Tu Nombre]</h1>
-          <p class="hero-role">Estudiante de 1º GM Informática</p>
-          <p class="hero-description">Apasionado por el desarrollo web y la tecnología. Actualmente aprendiendo y creando proyectos personales.</p>
-          <a href="#proyectos" class="btn btn-primary">Ver proyectos</a>
+          <p class="hero-greeting">Desarrollador</p>
+          <h1 class="hero-name">Miguel Sastre</h1>
+          <p class="hero-role">Estudiante de 2º GS DAM</p>
+          <p class="hero-description">Apasionado por el desarrollo web y los videojuegos. Me gusta crear cosas que funcionan bien y se ven bien.</p>
+          <div class="hero-tags">
+            <span class="tag">HTML</span>
+            <span class="tag">CSS</span>
+            <span class="tag">Python</span>
+            <span class="tag">JS</span>
+            <span class="tag">TS</span>
+            <span class="tag">C#</span>
+            <span class="tag">Java</span>
+          </div>
+          <div class="hero-buttons">
+            <a href="#proyectos" class="btn btn-primary">Ver proyectos</a>
+            <a href="#contacto" class="btn btn-secondary">Contactar</a>
+          </div>
         </div>
       </section>
 
       <section id="sobre-mi" class="section">
         <h2 class="section-title">Sobre mí</h2>
         <div class="about-content">
-          <p>Soy estudiante de primer curso del ciclo formativo de Grado Medio de Informática. Me interesa el desarrollo web y la programación, especialmente todo lo relacionado con la creación de interfaces modernas y funcionales.</p>
-          <p>Durante mi formación he trabajado con HTML, CSS y estoy aprendiendo JavaScript. Busco oportunidades para aplicar lo que aprendo en proyectos reales y seguir creciendo en este campo.</p>
-          <p>Fuera de la informática, me gusta [tu hobby] y [otro hobby].</p>
+          <p>Soy estudiante de segundo curso del Grado Superior de Desarrollo de Aplicaciones Multiplataforma en Los Boscos. Me interesa el desarrollo web, los videojuegos y la ciberseguridad.</p>
+          <p>Durante mi formación he trabajado con HTML, CSS, JavaScript, TypeScript, Python, C# y Java. Busco oportunidades para aplicar lo que aprendo en proyectos reales y seguir creciendo en este campo.</p>
+          <p>Fuera de la informática, juego a Counter Strike, escucho música techno (Schranz) y practico Taekwondo.</p>
         </div>
       </section>
 
@@ -46,27 +58,34 @@
         <h2 class="section-title">Proyectos</h2>
         <div class="projects-grid">
           <article class="project-card">
-            <h3 class="project-title">Proyecto 1</h3>
-            <p class="project-description">Breve descripción del proyecto. Tecnologías usadas: HTML, CSS.</p>
+            <h3 class="project-title">Calculadora</h3>
+            <p class="project-description">Calculadora funcional con operaciones básicas y diseño responsivo.</p>
+            <div class="project-tags">
+              <span>HTML</span>
+              <span>CSS</span>
+              <span>JavaScript</span>
+            </div>
+          </article>
+          <article class="project-card">
+            <h3 class="project-title">Portafolio</h3>
+            <p class="project-description">Este mismo portfolio, creado desde cero con HTML y CSS.</p>
             <div class="project-tags">
               <span>HTML</span>
               <span>CSS</span>
             </div>
           </article>
           <article class="project-card">
-            <h3 class="project-title">Proyecto 2</h3>
-            <p class="project-description">Breve descripción del proyecto. Tecnologías usadas: HTML, CSS, JavaScript.</p>
-            <div class="project-tags">
-              <span>HTML</span>
-              <span>CSS</span>
-              <span>JS</span>
-            </div>
-          </article>
-          <article class="project-card">
-            <h3 class="project-title">Proyecto 3</h3>
-            <p class="project-description">Breve descripción del proyecto. Tecnologías usadas: Python.</p>
+            <h3 class="project-title">Juego de Pong</h3>
+            <p class="project-description">Juego clásico de Pong implementado en Python.</p>
             <div class="project-tags">
               <span>Python</span>
+            </div>
+          </article>
+          <article class="project-card">
+            <h3 class="project-title">Juego plataformas</h3>
+            <p class="project-description">Juego de plataformas desarrollado en Unity.</p>
+            <div class="project-tags">
+              <span>Unity</span>
             </div>
           </article>
         </div>
@@ -76,19 +95,24 @@
         <h2 class="section-title">Habilidades</h2>
         <div class="skills-list">
           <div class="skill-category">
-            <h3 class="skill-title">Desarrollo web</h3>
+            <h3 class="skill-title">Lenguajes</h3>
             <ul class="skill-items">
-              <li>HTML5</li>
-              <li>CSS3</li>
-              <li>JavaScript básico</li>
+              <li>HTML</li>
+              <li>CSS</li>
+              <li>JavaScript</li>
+              <li>TypeScript</li>
+              <li>Python</li>
+              <li>C#</li>
+              <li>Java</li>
             </ul>
           </div>
           <div class="skill-category">
             <h3 class="skill-title">Otros</h3>
             <ul class="skill-items">
-              <li>Git básico</li>
+              <li>Git</li>
+              <li>SQL</li>
+              <li>Linux</li>
               <li>Terminal</li>
-              <li>Ofimática</li>
             </ul>
           </div>
         </div>
@@ -98,15 +122,15 @@
         <h2 class="section-title">Contacto</h2>
         <p class="contact-text">¿Te gustaría contactar conmigo? Puedes hacerlo a través de:</p>
         <div class="contact-links">
-          <a href="mailto:tuemail@ejemplo.com" class="contact-link">tuemail@ejemplo.com</a>
-          <a href="https://github.com/tuusuario" target="_blank" rel="noopener" class="contact-link">GitHub</a>
-          <a href="https://linkedin.com/in/tuusuario" target="_blank" rel="noopener" class="contact-link">LinkedIn</a>
+          <a href="mailto:miguelsastre02@gmail.com" class="contact-link">miguelsastre02@gmail.com</a>
+          <a href="https://github.com/M1w083" target="_blank" rel="noopener" class="contact-link">GitHub</a>
+          <a href="https://www.linkedin.com/in/miguel-sastre-025408159" target="_blank" rel="noopener" class="contact-link">LinkedIn</a>
         </div>
       </section>
     </main>
 
     <footer class="footer">
-      <p>&copy; 2026 [Tu Nombre]. Todos los derechos reservados.</p>
+      <p>&copy; 2026 Miguel Sastre. Todos los derechos reservados.</p>
     </footer>
   </body>
 </html>
