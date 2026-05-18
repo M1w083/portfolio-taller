@@ -12,9 +12,11 @@
   <body>
     <header class="header">
       <nav class="nav">
-        <a href="#inicio" class="nav-logo">Miguel Sastre</a>
+        <a href="#inicio" class="nav-logo">MS</a>
         <ul class="nav-links">
+          <li><a href="#inicio">Inicio</a></li>
           <li><a href="#sobre-mi">Sobre mí</a></li>
+          <li><a href="#intereses">Mis intereses</a></li>
           <li><a href="#proyectos">Proyectos</a></li>
           <li><a href="#habilidades">Habilidades</a></li>
           <li><a href="#contacto">Contacto</a></li>
@@ -26,8 +28,8 @@
       <section id="inicio" class="hero">
         <div class="hero-content">
           <p class="hero-greeting">Desarrollador</p>
-          <h1 class="hero-name">Miguel Sastre</h1>
-          <p class="hero-role">Estudiante de 2º GS DAM</p>
+          <h1 class="hero-name">Miguel<br>Sastre</h1>
+          <p class="hero-role">2º GS DAM · Los Boscos</p>
           <p class="hero-description">Apasionado por el desarrollo web y los videojuegos. Me gusta crear cosas que funcionan bien y se ven bien.</p>
           <div class="hero-tags">
             <span class="tag">HTML</span>
@@ -43,14 +45,53 @@
             <a href="#contacto" class="btn btn-secondary">Contactar</a>
           </div>
         </div>
+        <div class="hero-scroll">
+          <span></span>
+        </div>
       </section>
 
       <section id="sobre-mi" class="section">
         <h2 class="section-title">Sobre mí</h2>
-        <div class="about-content">
-          <p>Soy estudiante de segundo curso del Grado Superior de Desarrollo de Aplicaciones Multiplataforma en Los Boscos. Me interesa el desarrollo web, los videojuegos y la ciberseguridad.</p>
-          <p>Durante mi formación he trabajado con HTML, CSS, JavaScript, TypeScript, Python, C# y Java. Busco oportunidades para aplicar lo que aprendo en proyectos reales y seguir creciendo en este campo.</p>
-          <p>Fuera de la informática, juego a Counter Strike, escucho música techno (Schranz) y practico Taekwondo.</p>
+        <div class="about-grid">
+          <div class="about-content">
+            <p>Soy estudiante de segundo curso del Grado Superior de Desarrollo de Aplicaciones Multiplataforma en Los Boscos. Me interesa el desarrollo web, los videojuegos y la ciberseguridad.</p>
+            <p>Durante mi formación he trabajado con HTML, CSS, JavaScript, TypeScript, Python, C# y Java. Busco oportunidades para aplicar lo que aprendo en proyectos reales y seguir creciendo en este campo.</p>
+            <p>Fuera de la informática, juego a Counter Strike, escucho música techno (Schranz) y practico Taekwondo.</p>
+          </div>
+          <div class="about-timeline">
+            <div class="timeline-item">
+              <span class="timeline-year">2024 - Presente</span>
+              <span class="timeline-text">GS DAM · Los Boscos</span>
+            </div>
+            <div class="timeline-item">
+              <span class="timeline-year">2022 - 2024</span>
+              <span class="timeline-text">CFGM SMIR · Los Boscos</span>
+            </div>
+          </div>
+        </div>
+      </section>
+
+      <section id="intereses" class="section">
+        <h2 class="section-title">Mis intereses</h2>
+        <div class="interests-grid">
+          <a href="https://github.com/M1w083/cs-stats-tracker" target="_blank" rel="noopener" class="interest-card">
+            <div class="interest-icon">🎮</div>
+            <h3 class="interest-title">Counter Strike</h3>
+            <p class="interest-description">Analizador de estadísticas para CS2. Proyecto en Python para tracking de kills, deaths, K/D y más.</p>
+            <span class="interest-link">Ver repositorio →</span>
+          </a>
+          <a href="https://github.com/M1w083/schranz-playlist" target="_blank" rel="noopener" class="interest-card">
+            <div class="interest-icon">🎵</div>
+            <h3 class="interest-title">Schranz</h3>
+            <p class="interest-description">Gestor de playlists para música Schranz y Techno. Organiza y curador tu música electrónica.</p>
+            <span class="interest-link">Ver repositorio →</span>
+          </a>
+          <a href="https://github.com/M1w083/taekwondo-tracker" target="_blank" rel="noopener" class="interest-card">
+            <div class="interest-icon">🥋</div>
+            <h3 class="interest-title">Taekwondo</h3>
+            <p class="interest-description">App para registrar entrenamientos y combates. Controla tu progreso y estadísticas marciales.</p>
+            <span class="interest-link">Ver repositorio →</span>
+          </a>
         </div>
       </section>
 
@@ -72,6 +113,30 @@
             <div class="project-tags">
               <span>HTML</span>
               <span>CSS</span>
+            </div>
+          </article>
+          <article class="project-card">
+            <h3 class="project-title">CS Stats Tracker</h3>
+            <p class="project-description">Analizador de estadísticas para Counter Strike 2.</p>
+            <a href="https://github.com/M1w083/cs-stats-tracker" target="_blank" rel="noopener" class="project-link">Ver en GitHub →</a>
+            <div class="project-tags">
+              <span>Python</span>
+            </div>
+          </article>
+          <article class="project-card">
+            <h3 class="project-title">Schranz Playlist</h3>
+            <p class="project-description">Gestor y curador de playlists de música Schranz y Techno.</p>
+            <a href="https://github.com/M1w083/schranz-playlist" target="_blank" rel="noopener" class="project-link">Ver en GitHub →</a>
+            <div class="project-tags">
+              <span>Python</span>
+            </div>
+          </article>
+          <article class="project-card">
+            <h3 class="project-title">Taekwondo Tracker</h3>
+            <p class="project-description">App para registrar entrenamiento y combates de Taekwondo.</p>
+            <a href="https://github.com/M1w083/taekwondo-tracker" target="_blank" rel="noopener" class="project-link">Ver en GitHub →</a>
+            <div class="project-tags">
+              <span>Java</span>
             </div>
           </article>
           <article class="project-card">

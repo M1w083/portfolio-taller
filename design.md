@@ -29,3 +29,4 @@ A balance of rigorous engineering and creative intuition. The aesthetic is clean
 - **Cards**: Dark containers with subtle borders and hover-states that utilize the primary glow.
 - **Buttons**: High-contrast primary actions with soft transitions and scale interactions.
 - **Timelines**: Vertical lines with glowing nodes for professional experience.
+
